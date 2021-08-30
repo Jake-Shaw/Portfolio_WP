@@ -52,7 +52,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <?php
+               <?php
                 wp_nav_menu(array(
                 'theme_location'    => 'primary',
                 'container'       => 'div',
@@ -69,6 +69,7 @@
             </nav>
         </div>
 	</header><!-- #masthead -->
+    <?php do_shortcode('[WP_HEADER_IMAGES]'); ?>
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
             <div class="container header-container">

@@ -1045,11 +1045,12 @@ body:not(.theme-preset-active) footer#colophon {
 --------------------------------------------------------------*/
 
 .header-container {
-  text-align: left;
+  text-align: center;
 }
 
 .header-container h1, p {
   color: white;
+  font-family: Montserrat;
 }
 
 #wpforms-submit-38, .wp-block-search__button  {
@@ -1090,6 +1091,7 @@ body:not(.theme-preset-active) footer#colophon {
 .entry-content p {
   color: black;
   font-family: Montserrat;
+  font-weight: normal;
 }
 
 .blocks-gallery-grid .blocks-gallery-item {
@@ -1110,3 +1112,12 @@ body:not(.theme-preset-active) footer#colophon {
   cursor: pointer;
 }
 
+h1.entry-title {
+  display: none;
+}
+
+.wphi-video, .header_image img {
+  margin: 0 auto !important;
+  min-width: 1140px;
+  max-height: 400px;
+}

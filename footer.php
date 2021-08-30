@@ -28,8 +28,8 @@
 
 
                     <div class="col-4 footer-images">
-                        <a  target="_blank" href="https://www.facebook.com/jake.m.shaw.5"><img src="img/fbLogo.png"></a>
-                        <a  target="_blank" href="https://www.linkedin.com/in/jake-shaw-5bb884195/"><img src="img/LiLogo.png"></a>
+                        <a  target="_blank" href="https://www.facebook.com/jake.m.shaw.5"><img src="/img/fbLogo.png"></a>
+                        <a  target="_blank" href="https://www.linkedin.com/in/jake-shaw-5bb884195/"><img src="/img/LiLogo.png"></a>
                     </div>
                 </div>
             </div>
